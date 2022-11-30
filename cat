@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CatPhotoApp</h1>
+    <h3>Cat Photo</h3>
+    <p>Click here to view photo <a href="https://www.bing.com/images/search?view=detailv2&iss=sbi&form=SBIIDP&sbisrc=ImgDropper&q=imgurl:https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FOIP.7qeEY9Xlu7r1UEmFuT9w9AHaFj%3Fpid%3DImgDet%26rs%3D1&idpbck=1&selectedindex=0&id=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FOIP.7qeEY9Xlu7r1UEmFuT9w9AHaFj%3Fpid%3DImgDet%26rs%3D1&ccid=IcX1h39k&mediaurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FOIP.7qeEY9Xlu7r1UEmFuT9w9AHaFj%3Fpid%3DImgDet%26rs%3D1&exph=355&expw=474&vt=2&sim=11" >Click Here</a></p>
+    
+    <br>
+    <figure>
+    <img src="./cat.jpeg" alt="catpic" height="150" width="150"><br>
+    
+</figure>
+    <h2>Cat List</h2>
+    <h3>Thing cat Love</h3>
+    
+    <ul>
+        <li>eat</li>
+        <li>sleep</li>
+        <li>repeat</li>
+    </ul>
+    <figure>
+        <img src="./OIP (2).jpeg" alt="catpic" height="150" width="150"><br>
+        <figcaption>cat love eating</figcaption>
+    </figure>
+    <h3>Three things cat hate</h3>
+    <ul>
+        <li>bath</li>
+        <li>loud noise</li>
+        <li>medicine</li>
+    </ul><br>
+    <figure>
+        <img src="./R (2).jpeg" alt="catpic" height="150" width="150"><br>
+        <figcaption>cat hates other cats</figcaption>
+    </figure>
+    <h2>cat form</h2>
+    <fieldset>
+        <legend>is your cat is indoor or outdoor</legend>
+
+        <!-- <input type="radio" id="gender" name="gender" value="male"/> Male
+        <input type="radio" id="gender" name="gender" value="Female"/> Female -->
+        <input type="radio" id="is your cat is indoor or outdoor" name="is your cat is indoor or outdoor" value="indoor" />indoor
+        <input type="radio" id="is your cat is indoor or outdoor" name="is your cat is indoor or outdoor" value="outdoor"/ >outdoor
+    </fieldset>
+    <fieldset>
+        <legend>what's your cat's personality?</legend>
+
+        <input type="checkbox"  id="what's your cat's personality?" name="what's your cat's personality?" value="lazy">lazy
+        <input type="checkbox"  id="what's your cat's personality?" name="what's your cat's personality?" value="energetic" >energetic
+    </fieldset>
+   
+    <input type="text" placeholder="about your cat"<p><button>Submit</button></p>
+    <p>No copyright <a href="https://allaboutcats.com/what-do-cats-hate">click here</a></p>
+    
+</body>
+</html>
