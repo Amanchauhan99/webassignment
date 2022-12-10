@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            height: 50px;
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* margin: 20px; */
+            /* justify-content: space-between; */
+        }
+        .navbar1parent{
+            height: 50px;
+            width: 20%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .navbar1{
+            /* border: 2px solid bisque; */
+            color: rgba(0, 0, 255, 0.705);
+            /* margin: 20px; */
+            height: 70%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .navbar2parent{
+            height: 50px;
+            width: 50%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .navbarchild1{
+            height: 50px;
+            width: 700px;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .navbar2{
+            /* border: 2px solid bisque; */
+            margin: 10px;
+            height: 70%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar3{
+            /* border: 2px solid bisque; */
+            margin: 10px;
+            height: 70%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar4{
+            /* border: 2px solid bisque; */
+            margin: 10px;
+            height: 70%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar5{
+            /* border: 2px solid bisque; */
+            margin: 10px;
+            height: 70%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbarchild2{
+            height: 50px;
+            width: 500px;
+            /* border: 2px solid red; */
+            display: flex;
+            margin-right: 150px;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .navbar6{
+            /* border: 2px solid bisque; */
+            margin: 10px;
+            height: 70%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar7{
+            border: 2px solid rgba(0, 0, 255, 0.705);
+            color: rgba(0, 0, 255, 0.705);
+            margin: 10px;
+            height: 70%;
+            width: 40%;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+        .lowercontent{
+            display: flex;
+        }
+        .leftcontent{
+            width: 49.8%;
+            height: 400px;
+            /* border: 2px solid green; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            /* margin-top: 30px; */
+            /* text-align: center; */
+            /* text-size-adjust: 100px; */
+        }
+        .leftcontent input{
+            height: 8%;
+            width: 60%;
+        }
+        .leftcontent h1{
+            /* width: 10px; */
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            font-style:normal;
+        }
+        .agreement{
+            height: 10%;
+            width: 60%;
+            border-radius: 20px;
+            background-color: rgba(0, 34, 255, 0.87);
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-size-adjust: 100px;
+        }
+        .agree{
+           width: 380px; 
+           font-size: small;
+        }
+        .agreement p{
+            font-size:x-large;
+            color: aliceblue;
+            /* width: 200px; */
+        }
+       
+        .rightcontent{
+            width: 49.8%;
+            height: 400px;
+            /* border: 2px solid green; */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navbar1parent">
+            <div class="navbar1"><h2>Linked In</h2></div></div>
+            <div class="navbar2parent">
+                <div class="navbarchild1">
+            <div class="navbar2"><img src="./pubg-48237.png" alt="" height="30px" width="30px"></div>
+            <div class="navbar3"><img src="./pubg-48237.png" alt="" height="30px" width="30px"></div>
+            <div class="navbar4"><img src="./pubg-48237.png" alt="" height="30px" width="30px"></div>
+            <div class="navbar5"><img src="./pubg-48237.png" alt="" height="30px" width="30px"></div>
+        </div>
+            <div class="navbarchild2">
+            <div class="navbar6">Join now</div>
+            <div class="navbar7"> Sign In </div></div></div>
+        </div>
+        <div class="lowercontent">
+        <div class="leftcontent">
+            <div><h1>Join the biggest <br> professinal comumunity</h1></div>
+            <input type="text" placeholder="Email"><br>
+            <input type="password" placeholder="password (8+ character)" >
+            <p class="agree">By clicking Agree & Join, you agree to the LinkedIn user Agree, privacy Policy and Cookies Policy</p>
+            <div class="agreement"><p> Agree & Join</p></div>
+            <p class="or">-------------------or-----------------</p>
+            <p class="alredy"> Already on LinkedIn?Sign in</p>
+        </div>
+        
+        <div class="rightcontent">
+            <img src="./sign.png" height="400px" width="629px" alt="">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
